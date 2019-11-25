@@ -3,7 +3,11 @@ $white: #fff;
 
 //normalize
 @import "./normalize.scss";
-@import "./block./header.scss";
-@import "./block./main.scss;
+@import "./main.scss";
 @import "./layout.scss";
+
+//blocks
+@import "./blocks./header.scss";
+@import "./blocks./nav.scss";
+@import "./blocks/promo.scss";
 
